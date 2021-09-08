@@ -71,9 +71,10 @@ func main() {
 	check(err2)
 	fmt.Println("printing Name struc: --------->")
 	for _, v := range res {
-		fmt.Print(v.fname)
+		//fmt.Print(v)
+		fmt.Print("fname: " + v.fname)
 		fmt.Print(" ")
-		fmt.Print(v.lname)
+		fmt.Print("lname: " + v.lname)
 		fmt.Println()
 	}
 }
